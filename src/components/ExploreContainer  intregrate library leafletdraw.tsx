@@ -1,15 +1,13 @@
 import React from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 import LeafletDraw from "./LeafletDraw";
-import GeoJsonLoader from "./GeoJsonLoader";
 import "leaflet/dist/leaflet.css";
 
 const MapWithDrawing: React.FC = () => {
   return (
     <MapContainer
-      ///center={[-0.21168009284190648, -78.50351572036745]}
-      center={[-0.22126542689512974, -78.51235820260406]}
-      zoom={20}
+      center={[51.505, -0.09]}
+      zoom={13}
       style={{
         height: "100vh",
         width: "100%",

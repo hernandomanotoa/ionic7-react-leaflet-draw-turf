@@ -1,6 +1,6 @@
 import React from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
-import LeafletDraw from "./LeafletDraw";
+import LeafletDrawTSplitTest from "./LeafletDrawTSplitTest";
 import GeoJsonLoader from "./GeoJsonLoader";
 import "leaflet/dist/leaflet.css";
 
@@ -20,7 +20,7 @@ const MapWithDrawing: React.FC = () => {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
-      <LeafletDraw />
+      <LeafletDrawTSplitTest />
     </MapContainer>
   );
 };

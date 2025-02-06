@@ -1,7 +1,6 @@
 import React from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
-import LeafletDraw from "./LeafletDraw";
-import GeoJsonLoader from "./GeoJsonLoader";
+import LeafletDraw from "./LeafletDrawSelect";
 import "leaflet/dist/leaflet.css";
 
 const MapWithDrawing: React.FC = () => {

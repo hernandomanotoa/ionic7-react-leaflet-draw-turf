@@ -1,10 +1,11 @@
 import React from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
-import LeafletDraw from "./LeafletDraw";
-import GeoJsonLoader from "./GeoJsonLoader";
+import LeafletDraw from "./LeafletDrawOnlySplit";
 import "leaflet/dist/leaflet.css";
+import "leaflet-draw/dist/leaflet.draw.css";
+import "leaflet-draw";
 
-const MapWithDrawing: React.FC = () => {
+const LeafletDraw: React.FC = () => {
   return (
     <MapContainer
       ///center={[-0.21168009284190648, -78.50351572036745]}
@@ -25,4 +26,4 @@ const MapWithDrawing: React.FC = () => {
   );
 };
 
-export default MapWithDrawing;
+export default LeafletDraw;

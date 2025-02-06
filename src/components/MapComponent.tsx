@@ -1,6 +1,6 @@
 import React from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
-import LeafletDraw from "./LeafletDraw";
+import LeafletDraw from "./LeafletDrawCorte";
 import GeoJsonLoader from "./GeoJsonLoader";
 import "leaflet/dist/leaflet.css";
 

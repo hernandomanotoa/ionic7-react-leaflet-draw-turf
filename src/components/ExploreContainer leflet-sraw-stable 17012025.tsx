@@ -5,6 +5,8 @@ import GeoJsonLoader from "./GeoJsonLoader";
 import "leaflet/dist/leaflet.css";
 
 const MapWithDrawing: React.FC = () => {
+  const geoJsonUrl = "./data/quito_geometrias.geojson"; // Cambia esto a la URL o ruta válida de tu archivo GeoJSON.
+
   return (
     <MapContainer
       ///center={[-0.21168009284190648, -78.50351572036745]}
