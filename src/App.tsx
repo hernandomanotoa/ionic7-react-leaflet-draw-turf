@@ -8,6 +8,7 @@ import Split from "./pages/OnlySplit";
 import SplitTest from "./pages/Split";
 import Geoman from "./pages/Geoman";
 import AlgoritmoCorte from "./pages/AlgoritmoCorte";
+import OfflineMapTiles from "./pages/OfflineMapTiles";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
@@ -70,6 +71,9 @@ const App: React.FC = () => (
 
         <Route exact path="/corte">
           <AlgoritmoCorte />
+        </Route>
+        <Route exact path="/offline">
+          <OfflineMapTiles />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>
